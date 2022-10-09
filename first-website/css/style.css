@@ -3,9 +3,14 @@ margin:0;
 padding:0 ;
 }
 
-
+.img-theLoveStoryOfAnnaK
+{
+margin-left: 30px;
+}
 
 .img-speak {
-    width:"210px" ;
-
+    width:"100px" ;
+    margin-left: 30px;   /* Horizontal Space */
+    margin-right: 30px;  /* Vertical Space */
+   
 }
