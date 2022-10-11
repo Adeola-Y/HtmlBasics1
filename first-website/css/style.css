@@ -5,7 +5,6 @@ padding:0 ;
 
 .img-theLoveStoryOfAnnaK
 {
- margin-left: 30px;
  margin-right: 30px;
 }
 
@@ -21,11 +20,12 @@ padding:0 ;
 }
 
 .img-theyBothDieAtTheEnd {
-    margin-right: 115px;
+    margin-right: 50px;
     margin-left: 30px;
     /*margin-top: 20px;*/
 }
 
 .img-theFaultInOurStars{
     margin-top: 70px;
+   
 }
