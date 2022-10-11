@@ -5,11 +5,19 @@ padding:0 ;
 
 .img-theLoveStoryOfAnnaK
 {
-margin-left: 30px;
+ margin-left: 30px;
 }
 
 .img-speak {
     margin-left: 30px;   /* Horizontal Space */
     margin-right: 30px;  /* Vertical Space */
    
+}
+
+.img-theCruelPrince {
+ margin-right: 30px;
+}
+
+.img-theyBothDieAtTheEnd {
+    margin-right: 30px;
 }
