@@ -1,31 +1,34 @@
 * {
-margin:0;
-padding:0 ;
+  margin: 0;
+  padding: 0;
 }
 
-.img-theLoveStoryOfAnnaK
-{
- margin-right: 30px;
+.img-theLoveStoryOfAnnaK {
+  margin-right: 30px;
 }
 
 .img-speak {
-    margin-left: 38px;   /* Horizontal Space */
-    margin-right: 30px;  /* Vertical Space */
-   
+  margin-left: 60px; /* Horizontal Space */
+  margin-right: 30px; /* Vertical Space */
 }
 
 .img-theCruelPrince {
- margin-right: 30px;
- margin-left: 30px;
+  margin-left: 50px;
 }
 
 .img-theyBothDieAtTheEnd {
-    margin-right: 50px;
-    margin-left: 30px;
-    /*margin-top: 20px;*/
+  margin-right: 200px;
+  margin-left: 80px;
 }
 
-.img-theFaultInOurStars{
-    margin-top: 70px;
-   
+.img-theFaultInOurStars {
+  margin-top: 70px;
+  margin-right: 100px;
+}
+.img-everyLastWord {
+  margin-right: 100px;
+}
+.img-theOutsiders {
+  margin-right: 50px;
+  margin-top: 70px;
 }
