@@ -5,30 +5,48 @@
 
 .img-theLoveStoryOfAnnaK {
   margin-right: 30px;
+  border-style: groove;
+  border-color: rgb(164, 125, 104);
 }
 
 .img-speak {
+  border-style: groove;
+  border-color: rgb(164, 125, 104);
   margin-left: 60px; /* Horizontal Space */
   margin-right: 30px; /* Vertical Space */
 }
 
 .img-theCruelPrince {
+  border-style: groove;
+  border-color: rgb(164, 125, 104);
   margin-left: 50px;
 }
 
 .img-theyBothDieAtTheEnd {
+  border-style: groove;
+  border-color: rgb(164, 125, 104);
   margin-right: 200px;
   margin-left: 80px;
 }
 
 .img-theFaultInOurStars {
+  border-style: groove;
+  border-color: rgb(164, 125, 104);
   margin-top: 70px;
   margin-right: 100px;
 }
 .img-everyLastWord {
+  border-style: groove;
+  border-color: rgb(164, 125, 104);
   margin-right: 100px;
 }
 .img-theOutsiders {
+  border-style: groove;
+  border-color: rgb(164, 125, 104);
   margin-right: 50px;
   margin-top: 70px;
+}
+
+.iframe {
+  margin-left: 2000;
 }

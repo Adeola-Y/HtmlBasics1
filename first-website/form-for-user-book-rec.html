@@ -5,13 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adeolas Book Recs</title>
+    <style>
+      body {
+        background-color: blanchedalmond;
+      }
+    </style>
   </head>
   <body>
-    <form name="Books To Read" id="books" method="get">
-      <label for="books-to-read"> Enter a book for me to read {Required}</label>
-      <input type="text" name="books" id="boks-to-read" required />
-      <label for="email-address"> Please Enter E-mail</label>
-      <input />
-    </form>
+    <header>
+      <h1>Your Book Rec</h1>
+      <nav>
+        <a href="recommendations.html">
+          What I rate them out of Emotional Damage
+        </a>
+        <br />
+        <a href="form-for-user-book-rec.html"> Form </a>
+        <br />
+        <a href="index.html"> Home </a>
+      </nav>
+    </header>
+
+    <main>
+      <form name="Books To Read" id="books" method="get">
+        <label for="books-to-read">
+          <b>Enter a book for me to read</b> {Required}
+        </label>
+        <input type="text" name="books" id="books-to-read" required />
+        <br />
+        <br />
+
+        <label for="email-address"> Please Enter E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email-address"
+          minlength="6"
+          maxlength="40"
+          required />
+        <br />
+        <br />
+        <labe for="rant-on-book"
+          ><b>Go on a<u> Rant</u> about Your fav book:</b></labe
+        >
+        <br />
+        <textarea id="rant-on-book" name="Rant" rows="20" cols="50"></textarea>
+        <br />
+        <br />
+        <filedset>
+          <legend>Select Your Favourite Trope to Read:</legend>
+
+          <input type="radio" id="heists-trope" name="radio" value="dora" />
+          <label for="heists-trope">Heists</label>
+          <br />
+          <input
+            type="radio"
+            id="enemies-to-lovers-trope"
+            name="radio"
+            value="emenies-to-lovers" />
+          <label for="enemies-to-lovers">Enemies to Lovers</label>
+          <br />
+          <input
+            type="radio"
+            id="survival-of-the-fittest"
+            name="radio"
+            value="survival-of-the-fittest" />
+          <label for="survival-of-the-fittest">Survival Of The Fittest</label>
+          <br />
+          <input
+            type="radio"
+            id="kingdoms-at-war-/-royal-politics"
+            name="radio"
+            value="kingdoms-at-war-/-royal-politics" />
+          <label for="kingdoms-at-war-/-royal-politics">
+            Kingdoms at War/ Royal Politics
+          </label>
+          <br />
+          <input
+            type="radio"
+            id="prophecy-and-quests"
+            name="radio"
+            value="prophecy-and-quests" />
+          <label for="prophecy-and-quests"> Prophecy and Quests</label>
+          <br />
+          <input
+            type="radio"
+            id="second-chance-lovers"
+            name="radio"
+            value="second-chance-lovers" />
+          <label for="second-chance-lovers">Second Chance Romance</label>
+        </filedset>
+        <br />
+        <br />
+        <b>How Long Did It Take You To Finish The Book Approximatley:</b>
+        <br />
+        <input type="date" name="Startdate" /> Start date:<br /><br />
+        <input type="date" name="Enddate" /> End date:<br /><br />
+        <br />
+        <br />
+        <input
+          type="submit"
+          name="userSubmit"
+          id="submit"
+          value="Click this to Submit" />
+        <br />
+        <br />
+        <input
+          type="reset"
+          name="formReset"
+          id="reset"
+          value="Click this to Clear" />
+      </form>
+    </main>
+    <footer></footer>
   </body>
 </html>
