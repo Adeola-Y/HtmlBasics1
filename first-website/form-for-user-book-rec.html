@@ -15,6 +15,7 @@
     <header>
       <h1>Your Book Rec</h1>
       <nav>
+        <!--so people can navigate through the webpage better-->
         <a href="recommendations.html">
           What I rate them out of Emotional Damage
         </a>
@@ -26,12 +27,12 @@
     </header>
 
     <main>
-      <form name="Books To Read" id="books" method="get">
+      <form name="books-to-read" id="books-form" method="get">
         <!-- used for user input-->
-        <label for="books-to-read">
+        <label for="recommendation">
           <b>Enter a book for me to read</b> {Required}
         </label>
-        <input type="text" name="books" id="books-to-read" required />
+        <input type="text" name="recommendation" id="recommendation" required />
         <br />
         <br />
 
@@ -40,29 +41,30 @@
           type="email"
           name="email"
           id="email-address"
-          minlength="6"
+          minlength="8"
           maxlength="40"
           required />
         <br />
         <br />
-        <labe for="rant-on-book"
-          ><b>Go on a<u> Rant</u> about Your fav book:</b></labe
-        >
+        <label for="rant-on-book">
+          <b>Go on a<u> Rant</u> about Your fav book:</b>
+        </label>
+
         <br />
         <textarea id="rant-on-book" name="Rant" rows="20" cols="50"></textarea>
         <br />
         <br />
-        <filedset>
+        <fieldset>
           <legend>Select Your Favourite Trope to Read:</legend>
-
-          <input type="radio" id="heists-trope" name="radio" value="dora" />
+          <!--so people can choose their favourite choice out of these ones presented -->
+          <input type="radio" id="heists-trope" name="radio" value="hesits" />
           <label for="heists-trope">Heists</label>
           <br />
           <input
             type="radio"
             id="enemies-to-lovers-trope"
             name="radio"
-            value="emenies-to-lovers" />
+            value="enenies-to-lovers" />
           <label for="enemies-to-lovers">Enemies to Lovers</label>
           <br />
           <input
@@ -94,12 +96,12 @@
             name="radio"
             value="second-chance-lovers" />
           <label for="second-chance-lovers">Second Chance Romance</label>
-        </filedset>
+        </fieldset>
         <br />
         <br />
-        <b>How Long Did It Take You To Finish The Book Approximatley:</b>
+        <b>How Long Did It Take You To Finish Your Latest Read:</b>
         <br />
-        <input type="date" name="Startdate" /> Start date:<br /><br />
+        <input type="date" name="Startdate" /> Start date:<br /><br /><!--new input type for users to put in dates for when they do things-->
         <input type="date" name="Enddate" /> End date:<br /><br />
         <br />
         <br />
@@ -117,6 +119,8 @@
           value="Click this to Clear" />
       </form>
     </main>
-    <footer></footer>
+    <footer>
+      <p>&#169; Adeola Yusuf</p>
+    </footer>
   </body>
 </html>
